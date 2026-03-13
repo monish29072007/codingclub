@@ -1,0 +1,17 @@
+.one{
+    background-color: maroon;
+    color: cornsilk;
+    font-style:italic;
+    text-align:center;
+    padding: 100px;
+    width: 500px;
+    border-radius: 100px;
+    border-color: black;
+    margin-left:500px;
+}
+.two{
+    background-color: skyblue;
+}
+.three{
+    background-color:greenyellow;
+}

@@ -1,0 +1,13 @@
+.one{
+    background-color:burlywood;
+}
+.two{
+    background-color: cadetblue;
+}
+.three{
+    background-color:khaki;
+}
+body{
+    margin: 100px;
+    border: solid black 5px;
+}
