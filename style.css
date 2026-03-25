@@ -1,13 +1,30 @@
-.one{
-    background-color:burlywood;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
 }
-.two{
-    background-color: cadetblue;
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
 }
-.three{
-    background-color:khaki;
+#box1{
+    background-color:rgb(31, 180, 17);
+    align-self: flex-end;
 }
-body{
-    margin: 100px;
-    border: solid black 5px;
+#box2{
+    background-color:rgb(162, 24, 204) ;
+}
+#box3{
+    background-color:rgb(211, 10, 10);
+}
+#box4{
+    background-color:rgb(243, 227, 9);
 }
